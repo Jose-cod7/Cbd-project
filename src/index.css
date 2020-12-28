@@ -1,0 +1,323 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* NavBar styles start */
+.bg-primary {
+  background: rgba(253, 255, 99, 1) !important;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoImg {
+  padding-left: 50px;
+}
+
+/* NavBar style end */
+
+/* como hablan start */
+.comoHablan {
+  background: rgba(255, 216, 247, 1);
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  left: 0px;
+}
+.comoHablanContent {
+  height: 114px;
+  width: 839px;
+  padding-left: 100px;
+  border-radius: nullpx;
+}
+
+.comoHablanCards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+}
+
+.imgArrowLeft {
+  position: absolute;
+  top: 65px;
+  left: 4px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.imgArrowRight {
+  position: absolute;
+  top: 65px;
+  right: 4px;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.comoHablanTitle h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: left;
+  padding-left: 100px;
+}
+@media screen and (max-width: 839px) {
+  .comoHablanContent {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .comoHablanTitle h3 {
+    font-family: Roboto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+  }
+}
+/* como hablan end */
+
+/* hero Banner start */
+.heroBanner {
+  background: rgba(253, 255, 99, 1);
+  position: relative;
+  top: 63px;
+
+  width: 100%;
+  height: 500px;
+  left: 0px;
+}
+
+.heroBanner h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  line-height: 85px;
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 372px;
+  padding-top: 39px;
+}
+.heroBanner p {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26.46px;
+  text-align: left;
+  padding-left: 109px;
+  padding-right: 527px;
+}
+
+@media screen and (max-width: 839px) {
+  .heroBanner {
+    display: inline-block;
+  }
+  .heroBanner h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 37.12px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 39px;
+  }
+
+  .heroBanner p {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.55px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* hero Banner end */
+
+/* Nuestro proyecto */
+
+.nuestroProyecto{
+  background: rgba(255, 216, 247, 1);
+  position: relative;
+  height: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.proyectoTitle {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 100px;
+  padding-top: 30px;
+  float: left;
+}
+
+.quienesTitle {
+  position: absolute;
+  top: 110px;
+  left: 30px;
+  width: 300px;
+  height: 50px;
+  margin-left: 120px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fondo{
+  position: relative;
+  top: 100px;
+  left: -290px; 
+}
+
+.nosotros{
+  float: left;
+  padding: 20px 30px 20px 0;
+  margin: 45px 0 80px 0;
+  position: absolute;
+  top: 170px;
+  width: 800px;
+  height: 490px;
+  left: 0px;
+  right: 30px;
+}
+
+.proyectoContent{
+  background: #ffffff;
+  position: absolute;
+  font-size: 20px; 
+  right: 20px;
+  width: 850px;
+  height: 450px;
+  overflow-y: scroll;
+  margin: 150px 0 20px 0;
+  right: 0px;
+  padding: 100px;
+  background: linear-gradient(to bottom, #FFFFFF 72%, rgb(224, 223, 223) 82%);
+}
+
+.arrowDown{
+  position: relative;
+  left: 580px;
+  top: 615px;
+  bottom: 5px;
+}
+
+/* Como Trabajamos */
+
+.comoTrabajamos{
+  background: #A6EFF0;
+  position: relative;
+  height: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trabajamosTitle{
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: -30px;
+  left: 130px;
+}
+
+
+.fondo2{
+  position: relative;
+  top: -50px;
+  left: 130px; 
+}
+
+.trabajamosCards{
+  margin: 50px 80px;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Message Shop */
+
+.messageShop{
+  background: #FDFF63;
+  height: 350px;
+}
+
+.messageShop p{
+  text-align: justify;
+  font-size: 20px;
+  padding: 180px;
+  width: 900px;
+  position: relative;
+  left: 450px;
+  top: -130px;
+}
+
+.icon{
+  position: relative;
+  left: 500px;
+  top: 130px;
+}
+
+/* Blog style */
+
+.main-blog {
+  color: black;
+  background-color: rgba(255, 216, 247, 1);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3em;
+  position: relative;
+  bottom: auto;
+  width: 100%;
+}
+
+.text-center{
+  text-align: center;
+  margin-top: 10px;
+}
+/* Footer style */
+
+.main-footer {
+  display: flex;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3em;
+  position: relative;
+  bottom: auto;
+  width: 100%x;
+}
+
+
+.right-side-footer {
+  text-align: right;
+}
+
+.left-side-footer {
+  text-align: left;
+}
